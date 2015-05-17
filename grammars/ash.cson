@@ -9,11 +9,11 @@ scopeName: 'source.ash'
 patterns : [
     {
         'match': '(public) | (private) | (protected) | (static) | (final) | (required) | (native) | (override) | (standard)'
-        'name': 'ash.lang.modifier'
+        'name': 'constant.numeric.integer.hexadecimal.python'
     }
 
     {
         'match': '(var) | (const) | (func) | (class) | (protocol) | (namespace) | (enum) | (import) | (return)'
-        'name': 'ash.lang.keyword'
+        'name': 'constant.numeric.integer.hexadecimal.python'
     }
 ]
