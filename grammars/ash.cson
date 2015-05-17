@@ -1,3 +1,19 @@
+name: 'Ash'
+
 filetypes: [
     "ash"
+]
+
+scopeName: 'source.ash'
+
+patterns : [
+    {
+        'match': '(public) | (private) | (protected) | (static) | (final) | (required) | (native) | (override) | (standard)'
+        'name': 'ash.lang.modifier'
+    }
+
+    {
+        'match': '(var) | (const) | (func) | (class) | (protocol) | (namespace) | (enum) | (import) | (return)'
+        'name': 'ash.lang.keyword'
+    }
 ]
